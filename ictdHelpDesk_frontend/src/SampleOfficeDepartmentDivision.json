@@ -1,0 +1,27 @@
+[
+  {
+    "officercode": "ADM-HR-001",
+    "name": "Human Resources Division",
+    "description": "Responsible for recruitment, payroll processing, employee relations, and professional development programs."
+  },
+  {
+    "officercode": "FIN-ACC-002",
+    "name": "Accounting Department",
+    "description": "Handles financial reporting, budget management, and auditing of all office expenditures."
+  },
+  {
+    "officercode": "OPS-LOG-003",
+    "name": "Logistics and Supply Division",
+    "description": "Manages procurement, inventory tracking, and the distribution of office equipment and supplies."
+  },
+  {
+    "officercode": "IT-SEC-004",
+    "name": "Information Technology Division",
+    "description": "Maintains network infrastructure, software development, and cybersecurity protocols for the organization."
+  },
+  {
+    "officercode": "LEG-CMP-005",
+    "name": "Legal and Compliance Office",
+    "description": "Ensures all organizational activities adhere to government regulations and internal policy standards."
+  }
+]

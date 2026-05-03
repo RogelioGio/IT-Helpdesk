@@ -1,0 +1,742 @@
+[
+    {
+        "id": 11,
+        "tickeId": "TKT-2026-0462",
+        "activity": "Infrastructure",
+        "activitySpecification": "Core Switch Port Failure",
+        "assetSerialNumber": "SW-CORE-V2",
+        "status_id": [
+            {
+                "id": "ST-02",
+                "name": "Responded"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P1",
+                "name": "Critical"
+            }
+        ],
+        "respondeder_id": "NET-102",
+        "requester_id": [
+            {
+                "id": "USER-501",
+                "name": "Sarah Jenkins",
+                "Office": [
+                    {
+                        "id": "OFF-02",
+                        "name": "East Coast Branch"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T08:00:00Z",
+        "findings": "Uplink port 24 is non-functional; entire floor loses connectivity when redundant link fails.",
+        "resolution": "Pending hardware replacement under warranty; traffic rerouted to Port 23.",
+        "created_at": "2026-02-25T07:30:00Z",
+        "updated_at": "2026-02-25T08:45:00Z"
+    },
+    {
+        "id": 12,
+        "tickeId": "TKT-2026-0463",
+        "activity": "Software Support",
+        "activitySpecification": "ERP Access Restoration",
+        "assetSerialNumber": "N/A",
+        "status_id": [
+            {
+                "id": "ST-05",
+                "name": "Closed"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P2",
+                "name": "High"
+            }
+        ],
+        "respondeder_id": "ADMIN-05",
+        "requester_id": [
+            {
+                "id": "USER-302",
+                "name": "Michael Vane",
+                "Office": [
+                    {
+                        "id": "OFF-01",
+                        "name": "Headquarters"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T09:15:00Z",
+        "findings": "User profile corrupted in the ERP database preventing login.",
+        "resolution": "Re-indexed user profile and cleared local cache. Login successful.",
+        "created_at": "2026-02-25T09:00:00Z",
+        "updated_at": "2026-02-25T10:10:00Z"
+    },
+    {
+        "id": 13,
+        "tickeId": "TKT-2026-0464",
+        "activity": "Hardware Request",
+        "activitySpecification": "New Hire Peripherals",
+        "assetSerialNumber": "N/A",
+        "status_id": [
+            {
+                "id": "ST-01",
+                "name": "Assigned"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P4",
+                "name": "Low"
+            }
+        ],
+        "respondeder_id": "TECH-115",
+        "requester_id": [
+            {
+                "id": "USER-099",
+                "name": "Greg Foster",
+                "Office": [
+                    {
+                        "id": "OFF-03",
+                        "name": "West Wing"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T10:30:00Z",
+        "findings": "Request for dual monitor setup and docking station.",
+        "resolution": "Hardware requested from inventory.",
+        "created_at": "2026-02-25T10:00:00Z",
+        "updated_at": "2026-02-25T10:35:00Z"
+    },
+    {
+        "id": 14,
+        "tickeId": "TKT-2026-0465",
+        "activity": "Security",
+        "activitySpecification": "Phishing Email Analysis",
+        "assetSerialNumber": "N/A",
+        "status_id": [
+            {
+                "id": "ST-02",
+                "name": "Responded"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P2",
+                "name": "High"
+            }
+        ],
+        "respondeder_id": "SEC-001",
+        "requester_id": [
+            {
+                "id": "USER-441",
+                "name": "Linda Blair",
+                "Office": [
+                    {
+                        "id": "OFF-01",
+                        "name": "Headquarters"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T11:10:00Z",
+        "findings": "User received suspicious attachment claiming to be an invoice.",
+        "resolution": "Confirmed as malicious; purged from mail server and alerted staff.",
+        "created_at": "2026-02-25T11:00:00Z",
+        "updated_at": "2026-02-25T11:45:00Z"
+    },
+    {
+        "id": 15,
+        "tickeId": "TKT-2026-0466",
+        "activity": "Infrastructure",
+        "activitySpecification": "Wi-Fi Dead Zone Mapping",
+        "assetSerialNumber": "AP-WIFI-09",
+        "status_id": [
+            {
+                "id": "ST-05",
+                "name": "Closed"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P3",
+                "name": "Medium"
+            }
+        ],
+        "respondeder_id": "NET-102",
+        "requester_id": [
+            {
+                "id": "USER-212",
+                "name": "Tom Aris",
+                "Office": [
+                    {
+                        "id": "OFF-04",
+                        "name": "Warehouse"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T13:00:00Z",
+        "findings": "Signal dropouts in the loading bay area due to metal shelving interference.",
+        "resolution": "Relocated Access Point to a higher mounting point. Signal tested OK.",
+        "created_at": "2026-02-25T12:00:00Z",
+        "updated_at": "2026-02-25T14:30:00Z"
+    },
+    {
+        "id": 16,
+        "tickeId": "TKT-2026-0467",
+        "activity": "Account Administration",
+        "activitySpecification": "Password Reset",
+        "assetSerialNumber": "N/A",
+        "status_id": [
+            {
+                "id": "ST-05",
+                "name": "Closed"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P4",
+                "name": "Low"
+            }
+        ],
+        "respondeder_id": "TECH-115",
+        "requester_id": [
+            {
+                "id": "USER-882",
+                "name": "Jane Doe",
+                "Office": [
+                    {
+                        "id": "OFF-02",
+                        "name": "East Coast Branch"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T14:10:00Z",
+        "findings": "User locked out after 3 failed attempts.",
+        "resolution": "Identity verified; account unlocked and temporary password provided.",
+        "created_at": "2026-02-25T14:05:00Z",
+        "updated_at": "2026-02-25T14:15:00Z"
+    },
+    {
+        "id": 17,
+        "tickeId": "TKT-2026-0468",
+        "activity": "Systems Deployment",
+        "activitySpecification": "Server Patching - Monthly",
+        "assetSerialNumber": "SRV-DATA-01",
+        "status_id": [
+            {
+                "id": "ST-01",
+                "name": "Assigned"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P3",
+                "name": "Medium"
+            }
+        ],
+        "respondeder_id": "ADMIN-01",
+        "requester_id": [
+            {
+                "id": "USER-001",
+                "name": "System Monitor",
+                "Office": [
+                    {
+                        "id": "OFF-01",
+                        "name": "Headquarters"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T15:00:00Z",
+        "findings": "Monthly security updates pending for Linux production servers.",
+        "resolution": "Scheduled for maintenance window at 22:00.",
+        "created_at": "2026-02-25T14:50:00Z",
+        "updated_at": "2026-02-25T15:05:00Z"
+    },
+    {
+        "id": 18,
+        "tickeId": "TKT-2026-0469",
+        "activity": "Hardware Diagnostics",
+        "activitySpecification": "Laptop Won't Power On",
+        "assetSerialNumber": "LT-DELL-7420",
+        "status_id": [
+            {
+                "id": "ST-02",
+                "name": "Responded"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P3",
+                "name": "Medium"
+            }
+        ],
+        "respondeder_id": "TECH-882",
+        "requester_id": [
+            {
+                "id": "USER-154",
+                "name": "Kevin Hart",
+                "Office": [
+                    {
+                        "id": "OFF-03",
+                        "name": "West Wing"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T15:40:00Z",
+        "findings": "No LED indicators; suspected motherboard failure or faulty power brick.",
+        "resolution": "Testing with known good AC adapter first.",
+        "created_at": "2026-02-25T15:30:00Z",
+        "updated_at": "2026-02-25T15:50:00Z"
+    },
+    {
+        "id": 19,
+        "tickeId": "TKT-2026-0470",
+        "activity": "Infrastructure",
+        "activitySpecification": "UPS Battery Replacement",
+        "assetSerialNumber": "UPS-APC-3000",
+        "status_id": [
+            {
+                "id": "ST-05",
+                "name": "Closed"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P2",
+                "name": "High"
+            }
+        ],
+        "respondeder_id": "TECH-115",
+        "requester_id": [
+            {
+                "id": "USER-001",
+                "name": "System Monitor",
+                "Office": [
+                    {
+                        "id": "OFF-01",
+                        "name": "Headquarters"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T10:00:00Z",
+        "findings": "UPS unit reporting 'Replace Battery' alarm; risk of server crash during power blip.",
+        "resolution": "Swapped battery modules while system was online. Alarm cleared.",
+        "created_at": "2026-02-25T09:45:00Z",
+        "updated_at": "2026-02-25T11:20:00Z"
+    },
+    {
+        "id": 20,
+        "tickeId": "TKT-2026-0471",
+        "activity": "Software Support",
+        "activitySpecification": "Excel Macro Error",
+        "assetSerialNumber": "N/A",
+        "status_id": [
+            {
+                "id": "ST-01",
+                "name": "Assigned"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P4",
+                "name": "Low"
+            }
+        ],
+        "respondeder_id": "ADMIN-05",
+        "requester_id": [
+            {
+                "id": "USER-602",
+                "name": "Pam Beesly",
+                "Office": [
+                    {
+                        "id": "OFF-02",
+                        "name": "East Coast Branch"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T16:15:00Z",
+        "findings": "VBA error 'Object Required' when running monthly report macro.",
+        "resolution": "Triage started; checking library references.",
+        "created_at": "2026-02-25T16:00:00Z",
+        "updated_at": "2026-02-25T16:20:00Z"
+    },
+    {
+        "id": 11,
+        "tickeId": "TKT-2026-0462",
+        "activity": "Infrastructure",
+        "activitySpecification": "Core Switch Port Failure",
+        "assetSerialNumber": "SW-CORE-V2",
+        "status_id": [
+            {
+                "id": "ST-02",
+                "name": "Responded"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P1",
+                "name": "Critical"
+            }
+        ],
+        "respondeder_id": "NET-102",
+        "requester_id": [
+            {
+                "id": "USER-501",
+                "name": "Sarah Jenkins",
+                "Office": [
+                    {
+                        "id": "OFF-02",
+                        "name": "East Coast Branch"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T08:00:00Z",
+        "findings": "Uplink port 24 is non-functional; entire floor loses connectivity when redundant link fails.",
+        "resolution": "Pending hardware replacement under warranty; traffic rerouted to Port 23.",
+        "created_at": "2026-02-25T07:30:00Z",
+        "updated_at": "2026-02-25T08:45:00Z"
+    },
+    {
+        "id": 12,
+        "tickeId": "TKT-2026-0463",
+        "activity": "Software Support",
+        "activitySpecification": "ERP Access Restoration",
+        "assetSerialNumber": "N/A",
+        "status_id": [
+            {
+                "id": "ST-05",
+                "name": "Closed"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P2",
+                "name": "High"
+            }
+        ],
+        "respondeder_id": "ADMIN-05",
+        "requester_id": [
+            {
+                "id": "USER-302",
+                "name": "Michael Vane",
+                "Office": [
+                    {
+                        "id": "OFF-01",
+                        "name": "Headquarters"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T09:15:00Z",
+        "findings": "User profile corrupted in the ERP database preventing login.",
+        "resolution": "Re-indexed user profile and cleared local cache. Login successful.",
+        "created_at": "2026-02-25T09:00:00Z",
+        "updated_at": "2026-02-25T10:10:00Z"
+    },
+    {
+        "id": 13,
+        "tickeId": "TKT-2026-0464",
+        "activity": "Hardware Request",
+        "activitySpecification": "New Hire Peripherals",
+        "assetSerialNumber": "N/A",
+        "status_id": [
+            {
+                "id": "ST-01",
+                "name": "Assigned"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P4",
+                "name": "Low"
+            }
+        ],
+        "respondeder_id": "TECH-115",
+        "requester_id": [
+            {
+                "id": "USER-099",
+                "name": "Greg Foster",
+                "Office": [
+                    {
+                        "id": "OFF-03",
+                        "name": "West Wing"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T10:30:00Z",
+        "findings": "Request for dual monitor setup and docking station.",
+        "resolution": "Hardware requested from inventory.",
+        "created_at": "2026-02-25T10:00:00Z",
+        "updated_at": "2026-02-25T10:35:00Z"
+    },
+    {
+        "id": 14,
+        "tickeId": "TKT-2026-0465",
+        "activity": "Security",
+        "activitySpecification": "Phishing Email Analysis",
+        "assetSerialNumber": "N/A",
+        "status_id": [
+            {
+                "id": "ST-02",
+                "name": "Responded"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P2",
+                "name": "High"
+            }
+        ],
+        "respondeder_id": "SEC-001",
+        "requester_id": [
+            {
+                "id": "USER-441",
+                "name": "Linda Blair",
+                "Office": [
+                    {
+                        "id": "OFF-01",
+                        "name": "Headquarters"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T11:10:00Z",
+        "findings": "User received suspicious attachment claiming to be an invoice.",
+        "resolution": "Confirmed as malicious; purged from mail server and alerted staff.",
+        "created_at": "2026-02-25T11:00:00Z",
+        "updated_at": "2026-02-25T11:45:00Z"
+    },
+    {
+        "id": 15,
+        "tickeId": "TKT-2026-0466",
+        "activity": "Infrastructure",
+        "activitySpecification": "Wi-Fi Dead Zone Mapping",
+        "assetSerialNumber": "AP-WIFI-09",
+        "status_id": [
+            {
+                "id": "ST-05",
+                "name": "Closed"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P3",
+                "name": "Medium"
+            }
+        ],
+        "respondeder_id": "NET-102",
+        "requester_id": [
+            {
+                "id": "USER-212",
+                "name": "Tom Aris",
+                "Office": [
+                    {
+                        "id": "OFF-04",
+                        "name": "Warehouse"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T13:00:00Z",
+        "findings": "Signal dropouts in the loading bay area due to metal shelving interference.",
+        "resolution": "Relocated Access Point to a higher mounting point. Signal tested OK.",
+        "created_at": "2026-02-25T12:00:00Z",
+        "updated_at": "2026-02-25T14:30:00Z"
+    },
+    {
+        "id": 16,
+        "tickeId": "TKT-2026-0467",
+        "activity": "Account Administration",
+        "activitySpecification": "Password Reset",
+        "assetSerialNumber": "N/A",
+        "status_id": [
+            {
+                "id": "ST-05",
+                "name": "Closed"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P4",
+                "name": "Low"
+            }
+        ],
+        "respondeder_id": "TECH-115",
+        "requester_id": [
+            {
+                "id": "USER-882",
+                "name": "Jane Doe",
+                "Office": [
+                    {
+                        "id": "OFF-02",
+                        "name": "East Coast Branch"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T14:10:00Z",
+        "findings": "User locked out after 3 failed attempts.",
+        "resolution": "Identity verified; account unlocked and temporary password provided.",
+        "created_at": "2026-02-25T14:05:00Z",
+        "updated_at": "2026-02-25T14:15:00Z"
+    },
+    {
+        "id": 17,
+        "tickeId": "TKT-2026-0468",
+        "activity": "Systems Deployment",
+        "activitySpecification": "Server Patching - Monthly",
+        "assetSerialNumber": "SRV-DATA-01",
+        "status_id": [
+            {
+                "id": "ST-01",
+                "name": "Assigned"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P3",
+                "name": "Medium"
+            }
+        ],
+        "respondeder_id": "ADMIN-01",
+        "requester_id": [
+            {
+                "id": "USER-001",
+                "name": "System Monitor",
+                "Office": [
+                    {
+                        "id": "OFF-01",
+                        "name": "Headquarters"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T15:00:00Z",
+        "findings": "Monthly security updates pending for Linux production servers.",
+        "resolution": "Scheduled for maintenance window at 22:00.",
+        "created_at": "2026-02-25T14:50:00Z",
+        "updated_at": "2026-02-25T15:05:00Z"
+    },
+    {
+        "id": 18,
+        "tickeId": "TKT-2026-0469",
+        "activity": "Hardware Diagnostics",
+        "activitySpecification": "Laptop Won't Power On",
+        "assetSerialNumber": "LT-DELL-7420",
+        "status_id": [
+            {
+                "id": "ST-02",
+                "name": "Responded"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P3",
+                "name": "Medium"
+            }
+        ],
+        "respondeder_id": "TECH-882",
+        "requester_id": [
+            {
+                "id": "USER-154",
+                "name": "Kevin Hart",
+                "Office": [
+                    {
+                        "id": "OFF-03",
+                        "name": "West Wing"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T15:40:00Z",
+        "findings": "No LED indicators; suspected motherboard failure or faulty power brick.",
+        "resolution": "Testing with known good AC adapter first.",
+        "created_at": "2026-02-25T15:30:00Z",
+        "updated_at": "2026-02-25T15:50:00Z"
+    },
+    {
+        "id": 19,
+        "tickeId": "TKT-2026-0470",
+        "activity": "Infrastructure",
+        "activitySpecification": "UPS Battery Replacement",
+        "assetSerialNumber": "UPS-APC-3000",
+        "status_id": [
+            {
+                "id": "ST-05",
+                "name": "Closed"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P2",
+                "name": "High"
+            }
+        ],
+        "respondeder_id": "TECH-115",
+        "requester_id": [
+            {
+                "id": "USER-001",
+                "name": "System Monitor",
+                "Office": [
+                    {
+                        "id": "OFF-01",
+                        "name": "Headquarters"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T10:00:00Z",
+        "findings": "UPS unit reporting 'Replace Battery' alarm; risk of server crash during power blip.",
+        "resolution": "Swapped battery modules while system was online. Alarm cleared.",
+        "created_at": "2026-02-25T09:45:00Z",
+        "updated_at": "2026-02-25T11:20:00Z"
+    },
+    {
+        "id": 20,
+        "tickeId": "TKT-2026-0471",
+        "activity": "Software Support",
+        "activitySpecification": "Excel Macro Error",
+        "assetSerialNumber": "N/A",
+        "status_id": [
+            {
+                "id": "ST-01",
+                "name": "Assigned"
+            }
+        ],
+        "priority_id": [
+            {
+                "id": "P4",
+                "name": "Low"
+            }
+        ],
+        "respondeder_id": "ADMIN-05",
+        "requester_id": [
+            {
+                "id": "USER-602",
+                "name": "Pam Beesly",
+                "Office": [
+                    {
+                        "id": "OFF-02",
+                        "name": "East Coast Branch"
+                    }
+                ]
+            }
+        ],
+        "assignementDate": "2026-02-25T16:15:00Z",
+        "findings": "VBA error 'Object Required' when running monthly report macro.",
+        "resolution": "Triage started; checking library references.",
+        "created_at": "2026-02-25T16:00:00Z",
+        "updated_at": "2026-02-25T16:20:00Z"
+    }
+]

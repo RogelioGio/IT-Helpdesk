@@ -1,0 +1,30 @@
+[
+    {
+        "id": 2,
+        "name": "Administrator",
+        "description": "Manages the system configuration and has the highest level of access.",
+        "checkedColor": "peer-checked:bg-purple-100 peer-checked:border-purple-400 peer-checked:text-purple-900",
+        "icon": "MonitorCog"
+    },
+    {
+        "id": 3,
+        "name": "Manager",
+        "description": "Person that manages the ticket given to the system and can assign it to an officer.",
+        "checkedColor": "peer-checked:bg-blue-100 peer-checked:border-blue-400 peer-checked:text-blue-900",
+        "icon": "Users"
+    },
+    {
+        "id": 4,
+        "name": "Officer",
+        "description": "Respondent for the assigned ticket and can update the status of the ticket.",
+        "checkedColor": "peer-checked:bg-green-100 peer-checked:border-green-400 peer-checked:text-green-900",
+        "icon": "Wrench"
+    },
+    {
+        "id": 5,
+        "name": "User",
+        "description": "End users that mainly create tickets and ask for assistance.",
+        "checkedColor": "peer-checked:bg-amber-100 peer-checked:border-amber-400 peer-checked:text-amber-900",
+        "icon": "User"
+    }
+]
